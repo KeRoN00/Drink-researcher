@@ -2,18 +2,16 @@
 
 body {
   /* global variables */
-
-  --var-bg-primary: #000814;
+  --var-bg-primary: #101010;
   --var-bg-secondary: #00111A;
   --var-bg-additional: #001529;
   --var-accent-primary: #FFC300;
   --var-accent-secondary: #FFD60A;
-
+  overflow: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Merriweather Sans";
   color: white;
-  background-color: #000814;
-
+  background-color: var(--var-bg-primary);
 }
